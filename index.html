@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Bassel</title>
+
+
+<link rel="stylesheet" href="style.css">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Gamja+Flower&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+<!-- top nav bar section -->
+
+<section id="top-section">
+
+  <section id="navbars">
+
+
+    <div id="top-nav">
+      <img src="images/Logo.png" alt="" id="Logo">
+
+      <ul id="top-ul">
+        <li class="top-nav-li"><a href="#info-content">About Me</a></li>
+        <li class="top-nav-li"><a href="#Projects">Works</a></li>
+        <li class="top-nav-li"> <a href="#contact-me">Contact Me</a></li>
+      </ul>
+
+    </div>
+
+
+
+     <div class="bottom-nav">
+
+       <div id="social-div">
+         <a href="https://www.linkedin.com/in/bassel-mohammed-b3b61a311/"> <img class="linkedin-img" src="images\linkedin.png" alt=""></a>
+        <a href="https://github.com/Bassel-Mohammed"> <img class="github-img" src="images\github.png" alt=""></a>
+       </div>
+
+     </div>
+
+       <img id="menu_btn" src="images\menu.png" onclick="checkimagesrc()" alt="">
+
+
+
+<!-- drop down list items  -->
+
+     <div class="dropDown_menu">
+    <ul class="Drop_lists">
+      <li class="top-drop-li"><a href="#info-content">About Me</a></li>
+      <li class="top-drop-li"><a href="#Projects">Works</a></li>
+      <li class="top-drop-li"> <a href="#contact-me">Contact Me</a></li>
+    </ul>
+
+    <a href="https://www.linkedin.com/in/bassel-mohammed-b3b61a311/"> <img class="linkedin-img" src="images\linkedin.png" alt=""></a>
+   <a href="https://github.com/Bassel-Mohammed"> <img class="github-img" src="images\github.png" alt=""></a>
+  </div>
+
+
+</section>
+
+
+
+
+   <div id="top-container">
+
+
+     <div id="discription-box">
+
+
+       <h1>Hey , its <span id="basil">Basil</span></h1>
+       <p>a passionate software engineer dedicated to crafting innovative and impactful software applications. I thrive on turning ideas into reality</p>
+
+       <button type="button" id="contact-btn" name="button"><a id="f" href="#contact-me">Contact Me</a></button>
+       <button type="button" id="works-btn" name="button"><a href="#Projects">My works</a></button>
+
+       </div>
+
+
+       <!-- <img id="code-img" src="images\code.png" alt=""> -->
+
+
+
+   </div>
+
+   </section>
+
+   <section id="skills-section" >
+
+
+<div id="info-div">
+<img id="question-img" src="images\question.png" alt="">
+<div id="info-content">
+  <h2>About Me</h2>
+  <p id="about-me">I am a dedicated and skilled software engineer with a British Higher National Diploma in Computing - Software Engineering. Fluent in Java and experienced with the Spring Framework, I also possess strong knowledge in Servlets, JSP, and MySQL.
+My expertise spans the software development life cycle (SDLC) and front-end technologies such as HTML, CSS, and JavaScript.
+Currently enhancing my skills in Angular to grow as a Full-Stack Web Developer.
+I design robust and scalable solutions tailored to meet clients' needs. I leverage my versatile skill set to create innovative projects that push boundaries and exceed expectations.
+I am passionate about continually enhancing my skills and seeking opportunities to contribute to challenging professional environments.
+
+</p>
+</div>
+
+<img id="question-img2" src="images\question.png" alt="">
+
+</div>
+
+
+<div id="Projects">
+  <h2>My Works</h2>
+
+
+<div class="grid-1">
+
+
+    <div class="project-card">
+      <img class="project-img" src="images\starcourses.png" alt="">
+      <h2>Star courses System</h2>
+      <p class="paragraph">the star courses system is a web based application Allow the user to register as a student to enroll into the available courses or register as a teacher to create new courses. the backend side use the MVC approach to provide loose coupling and separate the different aspects of the application</p>
+      <br>
+      <p class="paragraph"><b>Technologies Used:</b> Java , SpringMvc frame work , JSP ,HTML , CSS , JavaScript.</p>
+      <button type="button" name="button"><a href="https://github.com/Bassel-Mohammed/Star-Courses-Project.git">Source code</a></button>
+    </div>
+
+    <hr>
+
+    <div class="project-card">
+      <img class="project-img" src="images\snakeGame.png" alt="">
+      <h2>Snake Game</h2>
+      <p class="paragraph">The snack game is a simple and interactive application built using Java and the Swing GUI framework. The player controls a snack, which moves around the screen collecting food while avoiding obstacles. The game starts with a basic interface and uses key events for player movement. The goal is to collect as many food items as possible without hitting the walls or the player's own tail. Each food item increases the player's score and the length of the snack, making the game progressively more challenging. The game provides real-time feedback on the score and supports a restart feature when the player loses.</p>
+      <br>
+      <p class="paragraph"><b>Technologies Used:</b> Java , Java Swing</p>
+      <button type="button" name="button"><a href="https://github.com/Bassel-Mohammed/Snack-Game.git">Source code</a></button>
+    </div>
+
+
+<hr>
+
+
+<div class="project-card">
+  <img class="project-img" src="images\calculator.png" alt="">
+  <h2>Desktop Calculator</h2>
+  <p class="paragraph">a basic desktop application created using JavaFX for the graphical user interface. It features a clean and responsive design, providing standard arithmetic operations such as addition, subtraction, multiplication, and division. The user interacts with the calculator through buttons that are mapped to the respective mathematical functions. It includes an efficient handling of input, ensuring correct order of operations and managing edge cases like division by zero. The JavaFX framework enables smooth rendering of the interface, making the calculator easy to use and visually appealing.</p>
+  <br>
+  <p class="paragraph"><b>Technologies Used:</b> Java , JavaFx.</p>
+  <button type="button" name="button"><a href="https://github.com/Bassel-Mohammed/Basic-calculator.git">Source code</a></button>
+</div>
+
+
+
+<hr>
+
+
+<div class="project-card">
+  <img class="project-img" src="images\travelAgency.png" alt="">
+  <h2>Travel Agency</h2>
+  <p class="paragraph">The Travel Agency website was enhanced with new features by integrating data from external APIs. Users can now search for a specific city and receive a collection of related images, the current weather status, and detailed information about the city. These features provide a more interactive and informative user experience, helping travelers explore cities with real-time data. The integration of APIs ensures that the information is up-to-date, adding value to users who are planning their trips or seeking insights into their destination.</p>
+  <br>
+  <p class="paragraph"><b>Technologies Used:</b>HTML , CSS , JavaScript ,  API JSON Data.</p>
+  <button type="button" name="button"><a href="#">Source code</a></button>
+</div>
+
+
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+<div id="skills-section" class="bottom-skills-section">
+
+  <h2>My technical skills</h2>
+
+  <div class="parent">
+    <div class="card">
+      <img class="card-img" src="images\java.png" alt="">
+      <h3>Java</h3>
+    </div>
+
+      <div class="card">
+        <img class="card-img" src="images\spring.png" alt="">
+        <h3>SpringMVC</h3>
+        </div>
+
+    <div class="card">
+      <img class="card-img" src="images\java-script.png" alt="">
+      <h3>Java script</h3>
+    </div>
+
+    <div class="card">
+      <img class="card-img" src="images\html.png" alt="">
+      <h3>HTML</h3>
+    </div>
+
+    <div class="card">
+      <img class="card-img" src="images\css-3.png" alt="">
+      <h3>CSS</h3>
+    </div>
+
+      <div class="card">
+        <img class="card-img" src="images\mysql.png" alt="">
+        <h3>MySql</h3>
+      </div>
+
+      <div class="card">
+        <img class="card-img" src="images\database.png" alt="">
+        <h3>DataBases</h3>
+      </div>
+
+      <div class="card">
+        <img class="card-img" src="images\git.png" alt="">
+        <h3>Git</h3>
+      </div>
+
+        <div class="card">
+          <img class="card-img" src="images\maven.png" alt="">
+          <h3>Maven</h3>
+    </div>
+  </div>
+
+</div>
+
+
+
+
+</section>
+
+
+<footer id="contact-me">
+
+  <h2>You can always contact me throgh this email</h2>
+
+  <h3 id="email">Basil.Alramoni@gmail.com</h3>
+
+<br>
+<br>
+<div class="">
+  <a href="https://www.linkedin.com/in/bassel-mohammed-b3b61a311/"> <img class="linkedin-img" src="images\linkedin.png" alt=""></a>
+ <a href="https://github.com/Bassel-Mohammed"> <img class="github-img" src="images\github.png" alt=""></a>
+</div>
+
+  <p>Dont hesitate to contact me :)</p>
+
+
+</footer>
+
+
+<script src="script.js" charset="utf-8"></script>
+
+
+
+
+
+
+  </body>
+</html>
